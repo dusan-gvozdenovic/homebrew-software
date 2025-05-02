@@ -8,6 +8,8 @@ class Librarian < Formula
   depends_on "exempi"
   depends_on "gettext"
   depends_on "ncurses"
+  depends_on "djvulibre"
+  depends_on "exiftool"
 
   def install
     system "cmake", "-B", "build", *std_cmake_args,
